@@ -26,9 +26,14 @@ async function searchPixels(): Promise<void> {
     // Parsing the Pixel data
     const jsonData: Pixel[] = JSON.parse(data);
 
-    // Displaying the Pixel date
-    const result = jsonData;
-    console.log(result);
+    // Defining the regex pattern
+    const searchRegex = /\bac\b/i;
+
+    // Filtering the Pixel data based on the regex pattern
+    const results = jsonData.filter((entry) => searchRegex.test(entry.notes));
+
+    // Displaying the filtered Pixel data
+    console.log(results);
   } catch (err) {
     console.error("Error searching pixels:", err);
   }

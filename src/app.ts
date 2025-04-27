@@ -30,7 +30,11 @@ async function searchPixels(): Promise<void> {
     const searchRegex = /\bac\b/i;
 
     // Filtering the Pixel data based on the regex pattern
-    const results = jsonData.filter((entry) => searchRegex.test(entry.notes));
+    const results = jsonData.filter((entry) => {
+      // Clearing up the new lines in the Pixel notes
+      const cleanLines = entry.notes.replace(/[\n\r]+/g, " ").trim();
+      return searchRegex.test(cleanLines);
+    });
 
     // Displaying the filtered Pixel data
     console.log(results);

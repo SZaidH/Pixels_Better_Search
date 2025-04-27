@@ -1,0 +1,122 @@
+[
+  {
+    "date": "2025-1-2",
+    "type": "Mood",
+    "scores": [3],
+    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "tags": [
+      {
+        "type": "Emotions",
+        "entries": ["joy", "calm", "contentment"]
+      }
+    ]
+  },
+  {
+    "date": "2025-1-3",
+    "type": "Mood",
+    "scores": [5],
+    "notes": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "tags": [
+      {
+        "type": "Emotions",
+        "entries": ["excitement", "hope", "energy"]
+      }
+    ]
+  },
+  {
+    "date": "2025-1-4",
+    "type": "Mood",
+    "scores": [2],
+    "notes": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    "tags": [
+      {
+        "type": "Emotions",
+        "entries": ["stress", "worry", "restlessness"]
+      }
+    ]
+  },
+  {
+    "date": "2025-1-5",
+    "type": "Mood",
+    "scores": [4],
+    "notes": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+    "tags": [
+      {
+        "type": "Emotions",
+        "entries": ["relaxation", "satisfaction", "optimism"]
+      }
+    ]
+  },
+  {
+    "date": "2025-1-6",
+    "type": "Mood",
+    "scores": [1],
+    "notes": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
+    "tags": [
+      {
+        "type": "Emotions",
+        "entries": ["sadness", "fatigue", "disappointment"]
+      }
+    ]
+  },
+  {
+    "date": "2025-1-7",
+    "type": "Mood",
+    "scores": [3],
+    "notes": "Velit esse cillum dolore eu fugiat nulla pariatur.",
+    "tags": [
+      {
+        "type": "Emotions",
+        "entries": ["neutral", "curiosity", "uncertainty"]
+      }
+    ]
+  },
+  {
+    "date": "2025-1-8",
+    "type": "Mood",
+    "scores": [4],
+    "notes": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.",
+    "tags": [
+      {
+        "type": "Emotions",
+        "entries": ["excitement", "confidence", "enthusiasm"]
+      }
+    ]
+  },
+  {
+    "date": "2025-1-9",
+    "type": "Mood",
+    "scores": [2],
+    "notes": "At vero eos et accusamus et iusto odio dignissimos ducimus.",
+    "tags": [
+      {
+        "type": "Emotions",
+        "entries": ["confusion", "anxiety", "overthinking"]
+      }
+    ]
+  },
+  {
+    "date": "2025-1-10",
+    "type": "Mood",
+    "scores": [5],
+    "notes": "Et harum quidem rerum facilis est et expedita distinctio.",
+    "tags": [
+      {
+        "type": "Emotions",
+        "entries": ["joy", "pride", "gratitude"]
+      }
+    ]
+  },
+  {
+    "date": "2025-1-11",
+    "type": "Mood",
+    "scores": [1],
+    "notes": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.",
+    "tags": [
+      {
+        "type": "Emotions",
+        "entries": ["loneliness", "regret", "melancholy"]
+      }
+    ]
+  }
+]
